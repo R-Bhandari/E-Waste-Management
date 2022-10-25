@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planet E-Waste</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,6 +28,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="service.html">Services</a></li>
+            <li><a href="process.html">Process</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -32,8 +36,8 @@
       </nav>
       <div class="text-box">
           <h1>Planet E-Waste</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nemo ipsam sed qui consectetur? <br>Aut itaque cum quibusdam eaque fuga nostrum magni sunt illum distinctio expedita?</p>
-          <a href="course.html" class="hero-btn">Visit Us To Know More</a>
+          <p>Planet E-Waste was founded in 2022 to make e-waste disposal sustainable and clean across the country. <br> Planet e-waste agenda is to make earth a better place to live by reducing carbon content. <br> Instead of thowing the e-waste, you can give it to us which will be recycled by us to protect our environment.</p>
+          <a href="service.html" class="hero-btn">Visit Us To Know More</a>
       </div>
     </section>
     
@@ -42,13 +46,17 @@
 
     <section class="campus">
       <h1>Services we offer</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae!</p>
+      <p>The following are the services we offer, you can visit them to know more in detail!</p>
       <div class="row">
-        <div class="campus-col">
-          <img src="eduford_img/reverselogistics.jpg" alt="Reverse Logistics">
-          <div class="layer">
+        <a href="reverselogistics.html">
+          <div class="campus-col">
+            <img src="eduford_img/reverselogistics.jpg" alt="Reverse Logistics">
+            <div class="layer">
             <h3>Reverse Logistic</h3>
-          </div>
+            </div>
+        </a>
+
+        <a href="datadestruction.html">
         </div>
         <div class="campus-col">
           <img src="eduford_img/Data-destruction1.jpg" alt="Data distruction">
@@ -56,19 +64,25 @@
             <h3>Data Destruction</h3>
           </div>
         </div>
-        <div class="campus-col">
-          <img src="eduford_img/EPR services.png" alt="EPR Services">
-          <div class="layer">
-            <h3>EPR Services</h3>
+        </a>
+
+        <a href="epr.html">
+          <div class="campus-col">
+            <img src="eduford_img/EPR services.png" alt="EPR Services">
+            <div class="layer">
+              <h3>EPR Services</h3>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
+
+      <a href="service.html" class="service-button">Click Here To Know More About Services</a>
     </section>
 
     <!-- Process -->
     <section class="course">
       <h1>A Simple Process </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>The following 9 steps describes the process followed by the Planet E-Waste to effectively work on the E-Waste</p>
       <div class="row">
         <div class="course-col">
           <h3>Schedule Pickup</h3>
@@ -116,10 +130,13 @@
     <!-- ---------------Call to Action----------------- -->
     <section class="cta">
       <h1>Opt For Our Services  <br> Anywhere Across India</h1>
-      <a href="contact.html" class="hero-btn">Contact Us</a>
+      <div id="button">
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+        <a href="schedulepickup.html" class="hero-btn">Schedule Pickup</a>
+      </div>
     </section>
 
-     <!-- ------------Reviews----------- -->
+     <!-- ------------Reviews-----------
      <section class="testimonial">
       <h1>What our Customers Says:</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam praesentium eveniet doloribus.</p>
@@ -134,7 +151,7 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <!-- <i class="fas fa-star"></i> -->
+
             <i class="far fa-star"></i>
           </div>
         </div>
@@ -147,16 +164,73 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <!-- <i class="fas fa-star"></i> -->
+
             <i class="fas fa-star-half-alt"></i>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+
+    <!-- Customer Riviews -->
+    <div class="container"  style="width: 600px; height: 600px">
+    <h1 style="font-size: 36px;font-weight: 600; text-align: center;">What Our Customer Says</h1><br><br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="eduford_img/review2.png" alt="Los Angeles" style="width:100%; height: 100%">
+          </div>
+    
+          <div class="item">
+            <img src="eduford_img/review1.png" alt="Chicago" style="width:100%; height: 100%">
+          </div>
+        
+          <div class="item">
+            <img src="eduford_img/review3.png" alt="New York" style="width:100%; height: 100%;">
+          </div>
+
+          <div class="item">
+            <img src="eduford_img/review4.png" alt="Chicago" style="width:100%; height: 100%">
+          </div>
+        
+          <div class="item">
+            <img src="eduford_img/review5.png" alt="New York" style="width:100%; height: 100%;">
+          </div>
+          
+          <div class="item">
+            <img src="eduford_img/review6.png" alt="New York" style="width: 100%; height: 100%;">
+          </div>
+      
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
 <!-- -------------Footer------------- -->
 <section class="footer">
   <h4>About Us</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, asperiores. Praesentium soluta <br>distinctio dicta, rem nulla sapiente consectetur officia ratione. <br> Maiores inventore deleniti accusantium magnam unde voluptatibus eum aliq <br>uam, odit, ut quas quidem fuga beatae eaque quod itaque nam, corporis <br> perspiciatis dolorem in alias?</p>
+  <p>Planet E-Waste was founded in 2022 to make e-waste disposal sustainable and clean across the country. <br> Planet e-waste agenda is to make earth a better place to live by reducing carbon content. <br> Instead of thowing the e-waste you can give it to us <br> which will be recycled by us to protect our environment.</p>
   <div class="icons">
     <i class="fab fa-facebook"></i>
     <i class="fab fa-twitter"></i>
@@ -164,7 +238,7 @@
     <i class="fab fa-linkedin"></i>
     <i class="fab fa-whatsapp"></i>
   </div>
-  <p>Copyright &copy; Raghav Bhandari </p>
+  <p>Copyright &copy; Bro Code Clan </p>
 </section>
 
   </body>
