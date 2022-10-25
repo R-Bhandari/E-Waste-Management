@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet E-Waste</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/185e119573.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+   <section class="course">
+      <h1>A Simple Process </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Schedule Pickup</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+        <div class="course-col">
+          <h3>Onsite Data Distruction</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+        <div class="course-col">
+          <h3>Material Collectiom</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Secured Transport</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+        <div class="course-col">
+          <h3>Reciept of Material</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+        <div class="course-col">
+          <h3>Dismantalling</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="course-row">
+          <h3>Secured Transport</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+        <div class="course-row">
+          <h3>Reciept of Material</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia, architecto accusamus culpa beatae harum laborum enim nisi repellendus amet minus qui libero quod quam facere, aspernatur adipisci tempora! Quod voluptatum perferendis atque.</p>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
