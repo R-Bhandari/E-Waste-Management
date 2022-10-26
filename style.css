@@ -161,10 +161,10 @@ h3{
     margin: 10px 0;
 }
 .course-col:hover {
-	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 }
 .course-row:hover {
-	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 }
 @media (max-width: 700px) {
 	.row {
@@ -512,4 +512,10 @@ h3{
 .rev-col a:visited{
 	text-decoration: underline;
 	color: green;
+}
+
+/* Process */
+.process{
+	color: white;
+	border-radius: 30px;
 }
