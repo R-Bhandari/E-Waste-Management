@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Schedule a Pickup | Planet E-Waste</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script
+			src="https://kit.fontawesome.com/185e119573.js"
+			crossorigin="anonymous"
+		></script>
+        <script src="cities.js"></script>
+	</head>
+	<body>
+        <style>
+            .sub-header{
+                height: 50vh;
+                width: 100%;
+                background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(eduford_img/pickup1.jpg);
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                color: white;
+            }
+        </style>
+		<section class="sub-header">
+            <nav>
+              <!-- <a href="index.html"><img src="eduford_img/logo.png" /></a> -->
+              <div class="nav-links">
+                <i class="fa fa-times"></i>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="service.html">Services</a></li>
+                  <li><a href="process.html">Process</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars"></i>
+            </nav>
+            <h1>Schedule a Pickup</h1>
+          </section>
+          <section class="about-us">
+            <div class="row">
+              <div class="about-col">
+                <h1>Schedule a Pickup</h1>
+                <p>
+                    Fill the following details in order to schedule a pickup.
+                </p>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="phone-number" placeholder="Phone Number">
+                    <input type="email" name="email" placeholder="E-Mail">
+                    <input type="text" name="address" placeholder="Address">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="about-col">
+                <h1>Visit Us</h1>
+                <p>
+                    Fill the following details in order to visit us.
+                </p>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="phone-number" placeholder="Phone Number">
+                    <input type="email" name="email" placeholder="E-Mail">
+                    <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+                    <select id ="state" class="form-control" required>
+                        <option value="">Select City</option>
+                    </select>
+                    <script language="javascript">print_state("sts");</script>
+                    <input type="submit" value="Submit">
+                </form>
+              </div>
+          </section>
+          <style>
+            .about-col{
+              border: 2px solid #91dce2;
+            }
+            .about-col h1{
+              text-align: center;
+            }
+            .about-col p {
+                font-size: 17px;
+                text-align: center;
+            }
+            .about-col form input{
+                display: block;
+                margin: 22px auto;
+                padding: 12px;
+                width: 60%;
+            }
+            .about-col form select{
+                display: block;
+                margin: 22px auto;
+                padding: 8px;
+                width: 60%;
+            }
+            .about-col form input[type="submit"]:hover{
+                border: 4px solid green;
+                background: green;
+                transition: 1s;
+                text-decoration: none;
+	              color: white;
+            }
+          </style>
+          <section class="footer">
+            <h4>About Us</h4>
+            <p>
+              Planet E-Waste was founded in 2022 to make e-waste disposal sustainable and clean across the country. <br> Planet e-waste agenda is to make earth a better place to live by reducing carbon content. <br> Instead of thowing the e-waste you can give it to us <br> which will be recycled by us to protect our environment.
+            </p>
+            <div class="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <p>Copyright &copy; Bro Code Clan </p>
+          </section>
+	</body>
+</html>

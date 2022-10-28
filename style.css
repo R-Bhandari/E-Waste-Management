@@ -3,6 +3,13 @@
 	padding: 0;
 	font-family: "Poppins", sans-serif;
 }
+
+/* index page navigation bar */
+#nav{
+	display: flex;
+}
+
+
 .header {
 	min-height: 100vh;
 	width: 100%;
@@ -88,7 +95,7 @@ nav .fa {
 	display: none;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
 	.text-box h1 {
 		font-size: 20px;
 	}
@@ -112,7 +119,7 @@ nav .fa {
 		font-size: 22px;
 		cursor: pointer;
 	}
-}
+} */
 
 /* -------------------course--------------- */
 .course {
@@ -161,10 +168,10 @@ h3{
     margin: 10px 0;
 }
 .course-col:hover {
-	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 }
 .course-row:hover {
-	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 }
 @media (max-width: 700px) {
 	.row {
@@ -512,4 +519,10 @@ h3{
 .rev-col a:visited{
 	text-decoration: underline;
 	color: green;
+}
+
+/* Process */
+.process{
+	color: white;
+	border-radius: 30px;
 }
