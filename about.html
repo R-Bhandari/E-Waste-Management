@@ -25,13 +25,22 @@
       }
       .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         display: block;
-        max-width: 50%;
+        max-width: 100%;
         margin: auto;
         height: auto;
       }
       nav{
         display: flex;
       }
+      .sub-header{
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(eduford_img/about-img.png);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: white;
+}
     </style>
     
     <script src="https://kit.fontawesome.com/185e119573.js" crossorigin="anonymous"></script>
@@ -140,9 +149,9 @@
     }
   </style>
   
-  <!---------------- Founder -------------------->
-  <div class="container"  style="width: 600px; height: 425px">
-    <h1 style="font-size: 36px;font-weight: 600; text-align: center;">Founder</h1><br><br>
+  <!---------------- Team -------------------->
+  <div class="container"  style="width: 600px; height: 600px">
+    <h1 style="font-size: 36px;font-weight: 600; text-align: center;">Meet Our Team</h1><br><br>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -150,30 +159,36 @@
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
           <li data-target="#myCarousel" data-slide-to="3"></li>
+          <!-- <li data-target="#myCarousel" data-slide-to="4"></li> -->
+          <!-- <li data-target="#myCarousel" data-slide-to="5"></li> -->
         </ol>
     
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
     
           <div class="item active">
-            <img src="eduford_img/user.jpg" alt="Los Angeles" style="width:100%; height: 100%">
-            <h3><strong>Raghav Bhandari</strong></h3>
+            <img src="eduford_img/founder.png" alt="Founder " style="width:100%; height: 100%">
           </div>
     
           <div class="item">
-            <img src="eduford_img/user.jpg" alt="Chicago" style="width:100%; height: 100%">
-            <h3><strong>Ritik Prajapat</strong></h3>
+            <img src="eduford_img/Co-Founder.png" alt="Co-Founder" style="width:100%; height: 100%">
           </div>
         
           <div class="item">
-            <img src="eduford_img/user.jpg" alt="New York" style="width:100%; height: 100%;">
-            <h3><strong>Sambhav Kanugo</strong></h3>
+            <img src="eduford_img/President.png" alt="Company President" style="width:100%; height: 100%;">
           </div>
 
           <div class="item">
-            <img src="eduford_img/user.jpg" alt="Chicago" style="width:100%; height: 100%">
-            <h3><strong>Yash Jain</strong></h3>
+            <img src="eduford_img/CEO.png" alt="CEO" style="width:100%; height: 100%">
           </div>
+        
+          <!-- <div class="item">
+            <img src="eduford_img/review5.png" alt="New York" style="width:100%; height: 100%;">
+          </div>
+          
+          <div class="item">
+            <img src="eduford_img/review6.png" alt="New York" style="width: 100%; height: 100%;">
+          </div> -->
       
         </div>
     
@@ -188,6 +203,11 @@
         </a>
       </div>
     </div>
+    <br><br><br><br><br>
+    <section class="about-us rev-col" style="padding: 10px;">
+      <hr>
+      <p id="knowmore">Please <a href="schedulepickup.html">click here</a> to know more about our scheduling and to identify the pick-up locations near you.</p>
+  </section>
   <!-- -------------Footer------------- -->
   <section class="footer">
     <h4>About Us</h4>
