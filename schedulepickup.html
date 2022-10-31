@@ -19,25 +19,25 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
 			rel="stylesheet"
 		/>
-
+    <style>
+      .sub-header{
+          height: 65vh;
+          width: 100%;
+          background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(eduford_img/pickup1.jpg);
+          background-position: center;
+          background-size: cover;
+          text-align: center;
+          color: white;
+      }
+  </style>
 		<script
 			src="https://kit.fontawesome.com/185e119573.js"
 			crossorigin="anonymous"
-		></script>
+      ></script>
+      <!-- <script src="script.js"></script> -->
         <script src="cities.js"></script>
 	</head>
 	<body>
-        <style>
-            .sub-header{
-                height: 65vh;
-                width: 100%;
-                background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(eduford_img/pickup1.jpg);
-                background-position: center;
-                background-size: cover;
-                text-align: center;
-                color: white;
-            }
-        </style>
 		<section class="sub-header">
             <nav>
               <!-- <a href="index.html"><img src="eduford_img/logo.png" /></a> -->
@@ -53,31 +53,32 @@
               </div>
               <i class="fa fa-bars"></i>
             </nav>
-            <h1>Schedule a Pickup</h1>
+            <h1>Schedule a Pickup/Find Nearest Center</h1>
           </section>
           <section class="about-us">
             <div class="row">
               <div class="about-col">
                 <h1>Schedule a Pickup</h1>
                 <p>
-                    Fill the following details in order to schedule a pickup.
+                  Fill the following details in order to schedule a pickup.
                 </p>
                 <form>
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="text" name="phone-number" placeholder="Phone Number" required>
+                  <input type="text" name="name" placeholder="Name" required>
+                  <input type="text" name="moblie-number" placeholder="Mobile Number" required>
                     <input type="email" name="email" placeholder="E-Mail" required>
                     <input type="text" name="address" placeholder="Address" required>
-                    <input type="submit" value="Submit">
+                    <input id="submit1" type="submit" value="Submit">
+                    <!-- <button id="submit1" onclick="message()">Submit</button> -->
                 </form>
             </div>
             <div class="about-col">
-                <h1>Visit Us</h1>
+                <h1>Find Nearest Center</h1>
                 <p>
                     Fill the following details in order to visit us.
                 </p>
                 <form>
                     <input type="text" name="name" placeholder="Name" required>
-                    <input type="text" name="phone-number" placeholder="Phone Number" required>
+                    <input type="text" name="mobile-number" placeholder="Moblie Number" required>
                     <input type="email" name="email" placeholder="E-Mail" required>
                     <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
                     <select id ="state" class="form-control" required>
@@ -85,11 +86,12 @@
                     </select>
                     <script language="javascript">print_state("sts");</script>
                     <input type="submit" value="Submit">
-                </form>
-              </div>
-          </section>
-          <style>
-            .about-col{
+                  </form>
+                </div>
+              </section>
+              <!-- <p id="message">Lorem, ipsum dolor.</p> -->
+              <style>
+                .about-col{
               border: 2px solid green;
             }
             .about-col h1{
@@ -111,6 +113,7 @@
                 padding: 12px;
                 width: 60%;
                 border-width: 2px;
+                cursor: pointer;
                 border-style: inset;
                 border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
             }
